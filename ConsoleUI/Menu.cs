@@ -8,21 +8,13 @@ namespace ConsoleUI
 {
     class Menu
     {
-        private List<UserOption> menuOptions = new List<UserOption>(0);
+        private List<MenuOption> options;
 
-        public void Add(UserOption option)
-        {
-            menuOptions.Add(option);
-        }
-
-        public void Add(params UserOption[] options)
-        {
-
-        }
+        public List<MenuOption> Options { get; }
 
         public Menu()
         {
-            menuOptions.Add(exit);
+
         }
     }
 }

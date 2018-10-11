@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menu.cs" />
-    <Compile Include="UserOption.cs" />
+    <Compile Include="MenuOption.cs" />
     <Compile Include="UserInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

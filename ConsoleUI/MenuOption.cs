@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleUI
 {
-    class UserOption
+    class MenuOption
     {
-        Node
-        public UserOption()
-        {
+        private Menu subMenu;
 
+        public MenuOption()
+        {
+            subMenu = null;
         }
     }
 }
