@@ -10,6 +10,8 @@ namespace ConsoleUI
     {
         private Menu subMenu;
 
+        internal Menu BaseMenu { get; }
+
         public MenuOption()
         {
             subMenu = null;

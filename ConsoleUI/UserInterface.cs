@@ -8,8 +8,6 @@ namespace ConsoleUI
 {
     public class UserInterface
     {
-        
-
         public void PromptForInput( ref object input )
         {
             bool valid = false;
